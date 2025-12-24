@@ -8,7 +8,7 @@ import math
 # ======================
 WIDTH = 60
 HEIGHT = 28
-FPS = 14   # 느린 느낌
+FPS = 14   
 
 # ======================
 # ANSI helpers

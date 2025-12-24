@@ -116,7 +116,7 @@ def main(stdscr):
                 else:
                     stdscr.addstr(dy, dx, ch, WHITE | curses.A_BOLD)
 
-        # ❤️ Rising hearts
+
         for p in heart_particles:
             ox, oy, off = p["ox"], p["oy"], p["offset"]
             travel = (t * HEART_SPEED + off) % (oy + 6)
